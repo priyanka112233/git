@@ -1,38 +1,20 @@
 
 public class Employee {
-	private int ampId;
-	private String empNme;
-	private String empSal;
 
-	public Employee(int ampId, String empNme, String empSal) {
-		super();
-		this.ampId = ampId;
-		this.empNme = empNme;
-		this.empSal = empSal;
+	private int empId;
+	private String empName;
+	
+	public int getEmpId() {
+		return empId;
 	}
-
-	public int getAmpId() {
-		return ampId;
+	public void setEmpId(int empId) {
+		this.empId = empId;
 	}
-
-	public void setAmpId(int ampId) {
-		this.ampId = ampId;
+	public String getEmpName() {
+		return empName;
 	}
-
-	public String getEmpNme() {
-		return empNme;
+	public void setEmpName(String empName) {
+		this.empName = empName;
 	}
-
-	public void setEmpNme(String empNme) {
-		this.empNme = empNme;
-	}
-
-	public String getEmpSal() {
-		return empSal;
-	}
-
-	public void setEmpSal(String empSal) {
-		this.empSal = empSal;
-	}
-
+	
 }
